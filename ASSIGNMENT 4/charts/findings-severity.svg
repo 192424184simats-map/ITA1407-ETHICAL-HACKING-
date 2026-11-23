@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350">
+<rect width="760" height="350" fill="#fff"/>
+<text x="32" y="38" font-family="Arial" font-size="22" font-weight="bold" fill="#172554">Candidate findings listed in the assignment</text>
+<text x="32" y="67" font-family="Arial" font-size="13" fill="#475569">Illustrative counts from the supplied findings register; verify each item in the lab.</text>
+<g font-family="Arial" font-size="15" fill="#0f172a">
+<text x="40" y="125">High</text><rect x="180" y="100" width="360" height="32" rx="5" fill="#dc2626"/><text x="555" y="123">6</text>
+<text x="40" y="190">Medium</text><rect x="180" y="165" width="180" height="32" rx="5" fill="#d97706"/><text x="375" y="188">3</text>
+<text x="40" y="255">Low</text><rect x="180" y="230" width="60" height="32" rx="5" fill="#2563eb"/><text x="255" y="253">1</text>
+</g>
+<text x="40" y="315" font-family="Arial" font-size="12" fill="#64748b">Counts reflect the 10 candidate rows (6 high, 3 medium, 1 low), not confirmed test results.</text>
+</svg>
