@@ -1,0 +1,5 @@
+scope,passive_queries,active_queries,interpretation
+1 domain,6,9,both feasible
+10 subdomains,14,40,active grows faster
+25 subdomains,22,110,active is noisier
+50 plus third-party services,30,260,broad active collection impractical; third-party authorization required
