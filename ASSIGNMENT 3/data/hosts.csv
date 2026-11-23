@@ -1,0 +1,7 @@
+ip,hostname,os_guess,status
+192.168.56.101,kali-lab,Linux 5.x,up
+192.168.56.102,win-srv01,Windows Server 2016,up
+192.168.56.103,android-vm,Android 9,up
+192.168.56.104,java-rmi01,Linux 4.x,up
+192.168.56.105,netware01,Novell NetWare 6.5,up
+192.168.56.106,symbian-bt,Symbian S60,up
