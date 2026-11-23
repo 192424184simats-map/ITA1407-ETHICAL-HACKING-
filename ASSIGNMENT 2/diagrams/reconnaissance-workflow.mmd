@@ -1,0 +1,10 @@
+flowchart TD
+ A[Confirm written authorization] --> B[Load exact asset allow-list]
+ B --> C[Passive source collection]
+ C --> D[Validate scope and source metadata]
+ D --> E[Prioritize approved assets]
+ E --> F[Targeted DNS checks in authorized lab]
+ F --> G[Deduplicate and timestamp results]
+ G --> H[Analyse contradictions and confidence]
+ H --> I[Risk and awareness mapping]
+ I --> J[Report evidence and limitations]
