@@ -1,0 +1,17 @@
+ip,port,protocol,state,service,version
+192.168.56.101,22,tcp,open,ssh,OpenSSH 8.9
+192.168.56.101,80,tcp,open,www,Apache 2.4.52
+192.168.56.101,443,tcp,open,https,Apache 2.4.52
+192.168.56.102,139,tcp,open,netbios-ssn,Samba
+192.168.56.102,445,tcp,open,smb,SMBv1
+192.168.56.102,3389,tcp,open,ms-wbt-server,RDP
+192.168.56.103,5555,tcp,open,adb,Android Debug Bridge
+192.168.56.104,1099,tcp,open,java-rmi,Java RMI Registry
+192.168.56.104,8080,tcp,open,http-alt,Tomcat 9
+192.168.56.105,524,tcp,open,ncp,NetWare NCP
+192.168.56.106,22,tcp,closed,ssh,
+192.168.56.101,80,tcp,open,www,Apache 2.4.52
+192.168.56.103,5555,tcp,open,adb,Android Debug Bridge
+192.168.56.256,80,tcp,open,http,
+192.168.56.102,65536,tcp,open,smb,
+192.168.56.104,,tcp,open,http-alt,Tomcat 9
