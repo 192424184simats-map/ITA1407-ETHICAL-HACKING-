@@ -1,0 +1,11 @@
+flowchart TD
+ A[parent.example] --> B[portal.parent.example]
+ A --> C[dept.parent.example]
+ A --> X[vendor.example]
+ C --> D[hr.dept.parent.example]
+ C --> E[research.dept.parent.example]
+ C --> F[empty branch]
+ E --> G[lab.research.dept.parent.example]
+ X --> Y[third-party service]
+ style X fill:#fee,stroke:#b00,color:#700
+ style Y fill:#fee,stroke:#b00,color:#700
