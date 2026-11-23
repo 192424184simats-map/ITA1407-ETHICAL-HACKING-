@@ -1,0 +1,38 @@
+erDiagram
+    HOSTS ||--o{ PORTS : has
+    HOSTS ||--o| OS_VERSIONS : identified_as
+    HOSTS ||--o{ ENUM_FINDINGS : produces
+    PORTS ||--o| SERVICES : describes
+    HOSTS {
+      string ip PK
+      string hostname
+      string os_guess
+      string status
+    }
+    PORTS {
+      string ip FK
+      int port
+      string protocol
+      string state
+      string service
+      string version
+    }
+    SERVICES {
+      string ip FK
+      int port
+      string service_std
+      string product
+      string version
+    }
+    OS_VERSIONS {
+      string ip PK
+      string os_name
+      int os_accuracy
+      string device_type
+    }
+    ENUM_FINDINGS {
+      string ip FK
+      string source_tool
+      string finding_type
+      string finding_value
+    }
