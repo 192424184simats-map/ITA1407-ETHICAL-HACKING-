@@ -1,0 +1,13 @@
+flowchart TD
+    A[Authorized scan exports] --> B[Import CSV / XML]
+    B --> C{Header valid?}
+    C -- No --> X[Stop with error]
+    C -- Yes --> D[Validate scope and field types]
+    D --> E[Clean and normalize]
+    E --> F[Write rejected rows with reasons]
+    E --> G[Melt / cast as required]
+    G --> H[Merge using documented keys]
+    H --> I[Reconcile row counts]
+    I --> J[Versioned export]
+    J --> K[SHA-256 checksum and read-back]
+    K --> L[Reports]
