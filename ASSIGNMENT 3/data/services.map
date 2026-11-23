@@ -1,0 +1,5 @@
+www,http
+http,http
+http-alt,http
+https,https
+smb,microsoft-ds
