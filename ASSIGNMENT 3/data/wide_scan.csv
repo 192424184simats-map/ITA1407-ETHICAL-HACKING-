@@ -1,0 +1,4 @@
+host,p22,p80,p139,p443,p445,p5555
+192.168.56.101,open,open,closed,open,closed,closed
+192.168.56.102,closed,closed,open,closed,open,closed
+192.168.56.103,closed,closed,closed,closed,closed,open
