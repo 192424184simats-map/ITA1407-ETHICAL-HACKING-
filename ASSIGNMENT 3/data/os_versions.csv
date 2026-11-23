@@ -1,0 +1,7 @@
+ip,os_name,os_accuracy,device_type
+192.168.56.101,Linux 5.x,95,virtual machine
+192.168.56.102,Windows Server 2016,92,server
+192.168.56.103,Android 9,90,Android virtual device
+192.168.56.104,Linux 4.x,85,Java RMI host
+192.168.56.105,Novell NetWare 6.5,80,NetWare server
+192.168.56.106,Symbian S60,75,Bluetooth device
