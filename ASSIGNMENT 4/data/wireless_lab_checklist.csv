@@ -1,0 +1,7 @@
+check_id,check,scope,evidence,status
+W-01,Record own AP standard and band,Own lab AP only,Beacon/capability details,Pending
+W-02,Record channel and channel width,Own lab AP only,Survey output,Pending
+W-03,Record authentication and cipher,Own lab AP only,Beacon details,Pending
+W-04,Check WPS configuration,Own lab AP only,Router admin setting or authorized check,Pending
+W-05,Confirm WPA3-SAE availability,Own lab AP only,Router configuration,Pending
+W-06,Redact unrelated SSIDs and BSSIDs,All saved reports,Redacted capture/export,Pending
