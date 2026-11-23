@@ -1,0 +1,13 @@
+flowchart LR
+    subgraph HOST["Host computer — isolated virtual network"]
+      subgraph NET["Host-only network: 192.168.56.0/24 — no gateway"]
+        K["Kali Linux VM\n192.168.56.10/24"]
+        T["DVWA / training target VM\n192.168.56.20/24"]
+        K <--> T
+      end
+      H["Hypervisor host-only switch"]
+      H --- NET
+    end
+    P["Production / public internet"]:::blocked
+    NET -. "No route / no bridged adapter" .- P
+    classDef blocked fill:#fee,stroke:#b00,color:#700
