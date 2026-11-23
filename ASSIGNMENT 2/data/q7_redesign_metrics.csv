@@ -1,0 +1,5 @@
+criterion,original,redesigned,unit
+Query count,260,95,queries
+In-scope coverage,100,100,percent
+Out-of-scope queries,several,0,count
+Query reduction,0,63,percent approximately
