@@ -1,0 +1,15 @@
+flowchart TD
+    A[Request received] --> B[Governance completeness review]
+    B --> C[System owner approval]
+    C --> D[Legal / DPO review where needed]
+    D --> E{All required approvals?}
+    E -- No --> F[Pending or rejected; no start]
+    E -- Yes --> G[Issue Engagement ID and freeze RoE]
+    G --> H[Assessment within approved boundary]
+    H --> I[Finding report]
+    I --> J{Personal data or credentials involved?}
+    J -- Yes / Unknown --> K[Private handling and DPO / security escalation]
+    J -- No --> L[Coordinated disclosure to verified owner]
+    K --> M[Remediation tracking]
+    L --> M
+    M --> N[Authorized verification and closure]
