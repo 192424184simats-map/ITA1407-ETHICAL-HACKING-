@@ -1,0 +1,15 @@
+flowchart TD
+    A[Assignment 5: Part A analysis] --> B[Define scope and written authorization]
+    B --> C[Isolated lab topology and snapshots]
+    C --> D[Discover Windows and Linux targets]
+    D --> E[Enumerate OS services and configurations]
+    E --> F[Assess web, SMTP, mobile, and database apps]
+    F --> G[Validate candidate findings manually]
+    G --> H{Is controlled exploitation necessary and approved?}
+    H -- No --> I[Use non-exploitative verification]
+    H -- Yes --> J[Snapshot and controlled lab verification]
+    I --> K[Apply hardening]
+    J --> K
+    K --> L[Retest and capture before/after evidence]
+    L --> M[Prioritize remediation]
+    M --> N[Final security decision and report]
