@@ -1,0 +1,15 @@
+flowchart TD
+    A[Department submits request] --> B{Written authorization verified?}
+    B -- No --> X[Reject / hold; no testing]
+    B -- Yes --> C[Define asset IDs and Rules of Engagement]
+    C --> D[Legal and privacy review]
+    D --> E{Required DPO approval complete?}
+    E -- No --> X
+    E -- Yes --> F[Threat model and risk classification]
+    F --> G[Isolated host-only lab validation]
+    G --> H[Authorized lab assessment]
+    H --> I[Structured finding report]
+    I --> J[Coordinated private disclosure]
+    J --> K[Remediation and authorized verification]
+    K --> L[Close engagement and archive audit record]
+    L --> M[Governance and scalability review]
