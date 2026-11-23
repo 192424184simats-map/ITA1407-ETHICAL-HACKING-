@@ -1,0 +1,11 @@
+id,finding,tool,domain,severity,status
+F-01,Outdated Apache/PHP version,nikto/whatweb,Web,high,To verify
+F-02,Missing HTTP security headers,curl/nikto,Web,medium,To verify
+F-03,No WAF detected,wafw00f,Web,medium,To verify
+F-04,SQL injection in tested parameter,ZAP/sqlmap,Web,high,To verify
+F-05,Reflected and stored XSS,ZAP/manual,Web,high,To verify
+F-06,Broken access control / IDOR,Manual,Web,high,To verify
+F-07,Exposed configuration or backup files,gobuster/dirb,Web,high,To verify
+F-08,WPS enabled on own lab AP,wash,Wireless,medium,To verify
+F-09,Weak WPA2 passphrase on own lab AP,Authorized audit,Wireless,high,To verify
+F-10,Noisy IDS rule,Suricata/Snort,Defence,low,To verify
