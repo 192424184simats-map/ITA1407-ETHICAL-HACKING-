@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330">
+<rect width="760" height="330" fill="#fff"/>
+<text x="32" y="38" font-family="Arial" font-size="22" font-weight="bold" fill="#172554">5,000-row validation benchmark (assignment VM)</text>
+<text x="32" y="72" font-family="Arial" font-size="14" fill="#334155">Reported elapsed time; lower is faster</text>
+<text x="32" y="135" font-family="Arial" font-size="16" fill="#0f172a">Per-line grep loop</text>
+<rect x="220" y="108" width="430" height="42" rx="6" fill="#2563eb"/>
+<text x="665" y="136" font-family="Arial" font-size="16" fill="#0f172a">5.79 s</text>
+<text x="32" y="215" font-family="Arial" font-size="16" fill="#0f172a">Single awk pass</text>
+<rect x="220" y="188" width="2" height="42" rx="2" fill="#16a34a"/>
+<text x="238" y="216" font-family="Arial" font-size="16" fill="#0f172a">0.02 s</text>
+<text x="32" y="285" font-family="Arial" font-size="13" fill="#475569">Approx. 290× faster in the reported test; results vary by machine.</text>
+</svg>
