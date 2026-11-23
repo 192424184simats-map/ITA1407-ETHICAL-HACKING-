@@ -1,0 +1,10 @@
+flowchart TD
+ A[Collected item] --> B{Exact asset in allow-list?}
+ B -- No --> X[Reject and log scope violation]
+ B -- Yes --> C{Duplicate fingerprint?}
+ C -- Yes --> D[Drop duplicate and link original]
+ C -- No --> E{Fresh within policy window?}
+ E -- No --> F[Recoverable: re-query]
+ E -- Yes --> G{Source reliable and verifiable?}
+ G -- No --> F
+ G -- Yes --> H[Accept as validated evidence]
