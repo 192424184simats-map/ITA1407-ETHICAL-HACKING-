@@ -1,0 +1,9 @@
+flowchart TB
+ Internet --> FW[Default-deny firewall]
+ FW --> WAF[Web application firewall]
+ WAF --> WEB[HTTPS web application]
+ WEB --> DB[(Database - private network)]
+ SENSOR[Network IDS sensor] -. monitor mirrored traffic .-> FW
+ LOGS[Centralized logs and alerts] <-- SENSOR
+ ADMIN[Authorized administrators] --> MFA[MFA and least privilege]
+ MFA --> WEB
