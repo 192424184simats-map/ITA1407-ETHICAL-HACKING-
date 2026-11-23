@@ -1,0 +1,11 @@
+flowchart TD
+ A[Approved lab zone and owner sign-off] --> B[Record resolver and timestamp]
+ B --> C[Query A, MX, NS and TXT]
+ C --> D[Record TTL, delegation and response]
+ D --> E{AXFR explicitly authorized?}
+ E -- No --> F[Do not attempt transfer]
+ E -- Yes --> G[Owner-approved isolated lab transfer test]
+ F --> H[Compare split-horizon and cached answers]
+ G --> H
+ H --> I[Apply transfer restrictions and TSIG]
+ I --> J[Document residual uncertainty]
