@@ -1,0 +1,7 @@
+case,prediction,synthetic_observation
+Secured,"A MX NS TXT; AXFR denied","Published records only"
+AXFR misconfiguration,"Whole lab zone may be exposed","Mock dataset marks transfer allowed"
+Stale record,"Old host remains listed","Expired A record"
+Split-horizon,"External view omits internal names","Public-only view"
+Delegated child,"Child NS answers separately","Delegated lab NS"
+Wildcard DNS,"Random names may resolve","Synthetic wildcard response"
