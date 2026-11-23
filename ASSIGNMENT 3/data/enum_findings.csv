@@ -1,0 +1,7 @@
+ip,source_tool,finding_type,finding_value
+192.168.56.102,enum4linux,shares,LabShare
+192.168.56.102,nbtscan,netbios_name,WIN-SRV01
+192.168.56.103,adb,android_release,9
+192.168.56.104,rmi-dumpregistry,bound_objects,java.rmi.registry
+192.168.56.105,ncp-serverinfo,server_version,NetWare 6.5
+192.168.56.106,sdptool,bluetooth_services,Serial Port
