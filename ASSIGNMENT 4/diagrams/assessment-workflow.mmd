@@ -1,0 +1,11 @@
+flowchart TD
+ A[Written authorization and scope] --> B[Reconnaissance]
+ B --> C[Web server and application checks]
+ C --> D[Manual verification and triage]
+ D --> E[Passive survey of own wireless AP]
+ E --> F[Firewall and IDS validation]
+ F --> G[Consolidate findings]
+ G --> H[Prioritize remediation]
+ H --> I[Evidence review and final report]
+ D --> J[Record false positives and limitations]
+ J --> G
