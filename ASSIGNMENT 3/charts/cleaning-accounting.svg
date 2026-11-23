@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330">
+<rect width="760" height="330" fill="#fff"/>
+<text x="32" y="38" font-family="Arial" font-size="22" font-weight="bold" fill="#172554">Assignment sample: scan-row accounting</text>
+<text x="32" y="75" font-family="Arial" font-size="14" fill="#334155">16 input records are accounted for as 11 cleaned + 5 rejected</text>
+<line x1="80" y1="260" x2="690" y2="260" stroke="#64748b" stroke-width="2"/>
+<rect x="130" y="110" width="110" height="150" rx="8" fill="#2563eb"/>
+<rect x="325" y="157" width="110" height="103" rx="8" fill="#16a34a"/>
+<rect x="520" y="213" width="110" height="47" rx="8" fill="#ea580c"/>
+<g font-family="Arial" font-size="18" text-anchor="middle" fill="#0f172a"><text x="185" y="98">16</text><text x="380" y="145">11</text><text x="575" y="201">5</text></g>
+<g font-family="Arial" font-size="15" text-anchor="middle" fill="#334155"><text x="185" y="286">Input</text><text x="380" y="286">Cleaned</text><text x="575" y="286">Rejected</text></g>
+</svg>
